@@ -27,8 +27,10 @@ with open(file) as file_in:
         if error != None:
             if error == 0:
                 print("\n")
+                input("\n(enter to quit)")
                 exit()
             else:
                 print("\n")
                 print("error: " + str(error))
+                input("\n(enter to quit)")
                 exit()

@@ -10,7 +10,7 @@ def execute_line(line, linecount):
 
     #print
     if args[0] == "print":
-        print(args[1])
+        print(args[1]+ "\n")
         return
 
     #spam
@@ -23,13 +23,15 @@ def execute_line(line, linecount):
                 pyautogui.typewrite(msg + '\n')
                 print(f"(spamming {args[1]}: {i}/{n})", end="\r")
                 time.sleep(0.01)
+            print(f"(spamming {args[1]}: {n}/{n})", end="\r")
+            print("\n")
         except IndexError:
             return "No count, (line: " + str(linecount) + ")"
         return
 
     #test
     if args[0] == "test":
-        print("--TEST--")
+        print("--TEST--"+ "\n")
         return
     
     #sleep
