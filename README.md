@@ -2,7 +2,9 @@
  Spamming Language created using Python
 
 
-
+## requirements
+- python
+- needed libraries
 ## about
 this is technically a progamming language
 created just for spamming
