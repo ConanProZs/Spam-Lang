@@ -4,7 +4,6 @@ import time
 def execute_line(line, linecount):
 
     args = list(line.split(":"))
-    args[-1] = args[-1].strip()
     args[0] = args[0].replace(" ", "")
     ##print(args)
 

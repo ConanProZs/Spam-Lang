@@ -2,3 +2,5 @@
 sleep : 3000
 #spamming 5 times hi
 spam: hi : 5
+#print something
+print : Done!
